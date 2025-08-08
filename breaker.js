@@ -6,7 +6,7 @@ const favFood = ["maass ", "isigwaqane ", "steemed bread"];
 let discountCode = null;
 let profilePicture;
 
-const galacticStarId = 89459680586567867865958;
+const galacticId = 8945968058656786786567654356n;
  
 
 
@@ -17,4 +17,4 @@ console.log("My dream vacation is to go to " + dreamVacation.countyName + " in "
 console.log("i love eating " +  favFood);
 console.log("A variable for a user's discount code is: " + discountCode );
 console.log("The user's profile picture URL is " + profilePicture);
-console.log("A galactic star ID is " + galacticStarId);
+console.log("A galactic star ID is " + galacticId);
