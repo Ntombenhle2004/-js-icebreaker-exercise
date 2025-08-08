@@ -23,18 +23,23 @@ console.log(questLog);
 const completedQuest = questLog.pop();
 console.log(`completedQuest: ${completedQuest}`);
 console.log("Updated quest log:", questLog);
+
 // step 6
 questLog.unshift("Rescue the Blacksmith's Cat");
 console.log("Updated log is: ", questLog);
+
 //step 7
 const delegateQuest = questLog.shift();
 console.log(questLog);
+
 //step 8
 const rePriorite = questLog.splice(1, 1);
 console.log(questLog);
+
 // step 9
 questLog.splice(1, 0, "Slay the Dragon of Mount Doom");
 console.log(questLog);
+
 //step 10
 const questSummary = questLog.join(" | ");
 console.log(questSummary);
